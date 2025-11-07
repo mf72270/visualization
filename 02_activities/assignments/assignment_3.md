@@ -7,23 +7,74 @@
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
-    > What software did you use to create your data visualization?
+    
+    
+    Q1> What software did you use to create your data visualization?
 
-    > Who is your intended audience? 
+Jupyter Notebook: I wrote code in Python using a Jupyter notebook. with Matplotlib and Seaborn for a static, reproducible bar chart.
+
+Power BI/ Bar chart: I built it in Microsoft Power BI BI to create an interactive, multi-visual dashboard for making business reports.
+
+    Q2> Who is your intended audience? 
+
+Jupyter Notebook: Healthcare policymakers and public health researchers needing a clear, statistical view of geographic disparity.
+
+Power BI/ Bar chart: Healthcare administrators and community planners requiring an interactive tool for resource allocation and detailed exploration.
+   
+   Q3 > What information or message are you trying to convey with your visualization? 
+
+Jupyter Notebook: Toronto has way more diabetes clinics than anywhere else. This probably means it's much harder for people in other cities to get the care they need.
+
+Power BI/ Bar chart: To provide a comprehensive overview of clinic patterns, combining geographic spread with a detailed directory for a complete analytical picture.
+
+
+    Q4> What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+
+Jupyter Notebook: I kept it simple. I put the numbers right on the bars so you don't have to guess, and I pointed out Toronto with an arrow because it's the most important takeaway. I used a simple blue color that's easy on the eyes. (Toronto's lead).
+
+Power BI/ Bar chart: Focused on a functional dashboard layout with interactive filtering. The chart gives you the big story at the top, and the list on the side lets you find details. It's set up so you can likely click on things to filter the information.
+
+
+   Q5 > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+Jupyter Notebook: Yes, absolutely Highly reproducible, I can send them my Python scriptand data file, and they can run it to get the exact same picture.
+
+
+Power BI/ Bar chart: It's trickier. They would need a copy of my Power BI file and the right software to open it. It's not as straightforward as the code.
+
+
+    Q6> How did you ensure that your data visualization is accessible?  
+
+ 
+
+Jupyter Notebook: I think so.The most important info or the numbers is written directly on the chart, a high-contrast color scheme, and a logical layout to serve a broad audience, including those with visual impairments.
+
+Power BI/ Bar chart: It might be okay, but it's less certain. It depends on if I took the time to add descriptions for screen readers. The blue background might make some text a little harder to read for people with low vision
+
+
     
-    > What information or message are you trying to convey with your visualization? 
-    
-    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
-    
-    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
-    > How did you ensure that your data visualization is accessible?  
-    
-    > Who are the individuals and communities who might be impacted by your visualization?  
-    
-    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    
-    > What ‘underwater labour’ contributed to your final data visualization product?
+    Q7> Who are the individuals and communities who might be impacted by your visualization? 
+
+
+Jupyter Notebook: People living in cities at the bottom of the chart or not on it at all might feel ignored. Health planners could use this to argue for more funding for those areas
+
+Power BI/ Bar chart: Empowers health authorities and advocates with the data to identify specific service gaps and campaign for more equitable funding and planning.
+
+
+    Q8> How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+
+
+Jupyter Notebook: Included only the top cities by clinic count for a focused, high level comparison, excluding finer details to ensure clarity.
+
+Power BI/ Bar chart: I wanted to show both the big picture and the details. So I included the summary chart but also kept the full list of all cities for people who need to look something up.
+
+
+    Q9> What ‘underwater labour’ contributed to your final data visualization product?
+
+Jupyter Notebook: A lot of time was spent writing and tweaking the code getting the labels to angle correctly, placing the "Toronto" arrow in just the right spot, and making sure the file saved properly. It's more than just pressing a "make graph" button.
+
+Power BI/ Bar chart: The hidden work was in cleaning up the original data, getting the chart and the list to talk to each other, and arranging everything on the page to look neat and professional. It's like the wiring behind the walls of a house—you don't see it, but it makes everything work.
+
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
